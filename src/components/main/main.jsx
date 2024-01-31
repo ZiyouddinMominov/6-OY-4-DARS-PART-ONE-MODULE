@@ -24,6 +24,7 @@ export default function Main() {
             <li className={styles.li}>Kompaniyalar</li>
             <li className={styles.li}>Xizmatlar</li>
             <li className={styles.li}>Ta’lim</li>
+            <li className={styles.linone}>yana...</li>
           </ul>
           <div className={styles.headerWrapper}>
             <a className={styles.link} href="#">

@@ -105,8 +105,6 @@
   padding: 18px;
   border-radius: 16px;
   border: 1px #e3e3e3 solid;
-  justify-content: flex-start;
-  align-items: flex-start;
   gap: 10px;
   outline: none;
   width: 702px;
@@ -169,6 +167,12 @@
 .desc {
   margin-top: 20px;
 }
+.linone {
+  display: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: 18px;
+}
 .desc textarea {
   border-radius: 12px;
   padding: 10px;
@@ -183,3 +187,75 @@
   margin-top: 20px;
 }
 /* MAIN END */
+@media screen and (max-width: 1105px) {
+  .linone {
+    display: block;
+  }
+  .li {
+    display: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  .twoinput div input {
+    width: 400px;
+  }
+  .input input {
+    width: 400px;
+  }
+
+  .main {
+    width: 500px;
+  }
+  .twoinput {
+    width: 400px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .desc textarea {
+    width: 400px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hodim input {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 570px) {
+  .inputLink {
+    display: none;
+  }
+  .linone {
+    display: none;
+  }
+  .twoinput div input {
+    width: 250px;
+  }
+  .input input {
+    width: 250px;
+  }
+
+  .main {
+    width: 300px;
+  }
+  .twoinput {
+    width: 250px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .desc textarea {
+    width: 250px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hodim input {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
